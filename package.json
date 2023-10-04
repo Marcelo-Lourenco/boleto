@@ -1,0 +1,23 @@
+{
+  "name": "validador-boleto",
+  "version": "1.0.0",
+  "description": "Validar Boleto a partir do 'Código de Barras' ou da 'Linha Digitável'",
+  "main": "index.html",
+  "license": "MIT",
+  "author": "Marcelo Lourenço",
+  "keywords": [
+    "Boleto",
+    "Código de Barras",
+    "Linha digitável",
+    "FEBRABAN"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Marcelo-Lourenco/boleto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Marcelo-Lourenco/boleto/issues"
+  },
+  "homepage": "https://github.com/Marcelo-Lourenco/boleto",
+  "demo-url": "https://marcelo-lourenco.github.io/boleto/"
+}

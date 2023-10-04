@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 700px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  /* display: flex; */
+  justify-content: center;
+}
+
+.tabs {
+  display: flex;
+  list-style-type: none;
+  border-radius: 8px 8px 0 0;
+  padding: 0;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 10px 0;
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+  position: relative;
+  border-bottom: 1px solid #c20332;
+}
+
+.tab.active {
+  background-color: #c20332;
+  color: #ffffff;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+#tableForm {
+  width: 90%;
+}
+
+td {
+  padding: 5px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #c20332;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  display: none;
+}
+
+#mensagem {
+  white-space: pre-wrap;
+}
