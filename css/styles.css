@@ -16,6 +16,14 @@ body {
   justify-content: center;
 }
 
+.content {
+  margin-top: 30px;
+  /* background-color: #fbfbfbfb; */
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+}
+
 .tabs {
   display: flex;
   list-style-type: none;
@@ -47,8 +55,9 @@ body {
   display: block;
 }
 
-#tableForm {
+.tableForm {
   width: 90%;
+  margin: auto;
 }
 
 td {
@@ -60,7 +69,7 @@ label {
 }
 
 input[type="text"] {
-  width: 100%;
+  width: 87%;
   padding: 10px;
   margin-bottom: 10px;
 }
@@ -75,13 +84,36 @@ button {
 }
 
 .result {
-  margin-top: 20px;
+  margin: 10px;
   border: 1px solid #ccc;
   padding: 10px;
   border-radius: 8px;
+}
+
+#result {
   display: none;
+}
+
+#resultLinhaDigitavel {
+  display: block;
+}
+
+#resultCodigoDeBarras {
+  display: block;
 }
 
 #mensagem {
   white-space: pre-wrap;
+}
+
+.center {
+  text-align: center;
+}
+
+.contador {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  display: inline;
+  color: #ccc;
 }
